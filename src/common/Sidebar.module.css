@@ -1,0 +1,41 @@
+.openBtn {
+  position: fixed;
+  top: 40%;
+  width: 20px;
+  height: 70px;
+  padding: 3px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: var(--main-color);
+  font-size: var(--text-sm);
+  background-color: var(--sub-color);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.openBtn .close {
+  transform: translateX(-320px);
+  transition: all 1s ease;
+}
+
+.sidebarContainer {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.sidebar {
+  display: flex;
+  border-right: var(--border-color) 1px solid;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  transition: all 1s ease;
+  background-color: white;
+  z-index: 999;
+}
+
+.close {
+  transform: translateX(-320px);
+  transition: all 1s ease;
+}

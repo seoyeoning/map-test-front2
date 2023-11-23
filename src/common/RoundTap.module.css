@@ -1,0 +1,30 @@
+.roundTap {
+  width: 90%;
+  height: 40px;
+  background-color: var(--disable-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.roundTap button {
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--disable-color);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.roundTap .active {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--main-color) 2px solid;
+  border-radius: 20px;
+  background-color: white;
+  color: var(--main-color);
+}

@@ -1,0 +1,12 @@
+.SearchInputContainer {
+  width: 260px;
+  text-align: center;
+}
+
+.searchInput {
+  width: 80%;
+  height: 20px;
+  padding: 5px;
+  border: var(--main-color) 1px solid;
+  border-radius: 3px;
+}

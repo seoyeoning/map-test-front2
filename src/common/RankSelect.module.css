@@ -1,0 +1,12 @@
+.rankSelectContainer {
+  width: 260px;
+  text-align: center;
+}
+
+.rankSelect {
+  width: 85%;
+  height: 30px;
+  padding: 5px;
+  border: var(--main-color) 1px solid;
+  border-radius: 3px;
+}

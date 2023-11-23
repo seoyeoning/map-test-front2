@@ -1,0 +1,13 @@
+.makeBtn {
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+}
+
+.makeBtn:hover {
+  background-color: var(--main-hover-color);
+}

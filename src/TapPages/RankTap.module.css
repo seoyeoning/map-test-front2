@@ -1,0 +1,9 @@
+.rankTap {
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}

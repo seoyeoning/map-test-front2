@@ -1,0 +1,48 @@
+.sidebarMenu {
+  width: 60px;
+  height: 100vh;
+  border-right: var(--border-color) 1px solid;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.sidebarbtn {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  font-size: var(--text-base);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+/* react-icons에서 가져온 이미지 */
+svg {
+  fill: var(--main-color);
+}
+
+.btnName {
+  font-size: var(--text-xs);
+  color: black;
+}
+
+.sidebarbtn:hover,
+.active {
+  background-color: var(--main-color);
+}
+
+.sidebarbtn:hover svg,
+.active svg {
+  fill: white;
+}
+
+.sidebarbtn:hover .btnName,
+.active .btnName {
+  color: white;
+}

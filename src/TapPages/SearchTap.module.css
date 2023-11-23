@@ -1,0 +1,52 @@
+.searchTap {
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.searchMarker {
+  width: 80%;
+  height: 100px;
+  background-color: var(--main-color);
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.searchMarkerInfo {
+  color: white;
+}
+
+.searchMarkerInfo .title {
+  font-size: var(--text-base);
+}
+
+.searchMarkerInfo .writer {
+  font-size: var(--text-sm);
+  font-family: 'GmarketSansLight';
+  padding-top: 10px;
+}
+
+.searchMarkerInfo .date {
+  font-size: var(--text-sm);
+  font-family: 'GmarketSansLight';
+  font-weight: 300;
+}
+
+.fav {
+  border: none;
+  background-color: transparent;
+}
+
+.fav svg {
+  fill: var(--disable-color);
+  font-size: 30px;
+}

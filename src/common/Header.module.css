@@ -1,0 +1,43 @@
+header {
+  width: 100vw;
+  height: 40px;
+  background-color: var(--sub-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+header .title {
+  color: var(--main-color);
+  font-size: var(--text-lg);
+  padding-left: 15px;
+}
+
+header .userInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-right: 15px;
+}
+
+header .userInfo .userPhoto {
+  background-color: var(--main-color);
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+header .userInfo .home {
+  width: 20px;
+  height: 20px;
+  fill: var(--main-color);
+}
+
+.loginBtn {
+  border: none;
+  background-color: transparent;
+  padding-right: 15px;
+}

@@ -1,0 +1,15 @@
+.sidebarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  border-right: var(--border-color) 1px solid;
+}
+
+.sidebarContent {
+  width: 260px;
+  height: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
